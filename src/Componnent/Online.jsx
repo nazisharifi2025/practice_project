@@ -2,7 +2,6 @@ import { useState } from "react"
 import Slider from "./Slider";
 import Visibility from "./Visiality";
 import Count from "./Count";
-
 export default function Online(){
     const [Online,setOnline] = useState(0);
     useState(()=>{
